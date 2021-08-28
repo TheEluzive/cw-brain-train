@@ -12,9 +12,8 @@ public class FindNextSquare {
 
     public static long findNextSquare(long sq){
         double root = Math.sqrt(sq);
-        if (root % 1 > 0)
-            return -1;
-        else
-            return (long) Math.pow(Math.sqrt(sq)+1, 2);
+        return root % 1 > 0
+                ? (long) ((root + 1) * (root + 1))
+                : -1;
     }
 }
