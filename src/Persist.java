@@ -5,7 +5,7 @@ public class Persist {
         System.out.println(persistence(25));
     }
     public static int persistence(long n) {
-        int  r = 0;
+        int  count = 0;
         long[] digits;
         long j = 1;
 
@@ -21,8 +21,8 @@ public class Persist {
             }
             n = j;
 
-            r++;
+            count++;
         }
-        return r;
+        return count;
     }
 }
