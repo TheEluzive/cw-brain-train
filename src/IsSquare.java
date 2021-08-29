@@ -4,7 +4,6 @@ public class IsSquare {
         System.out.println(isSquare(-1));
     }
     public static boolean isSquare(int n) {
-        int root = (int) Math.sqrt(n);
-        return root * root == n;
+        return Math.sqrt(n) % 1 == 0;
     }
 }
