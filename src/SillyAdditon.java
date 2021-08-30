@@ -1,13 +1,13 @@
 import java.util.IllformedLocaleException;
 
-public class SecretFunction {
+public class SillyAdditon {
 
     public static void main(String[] args) {
-        secretFunction(123, 123);
+        add(123, 123);
     }
 
 
-    public static int secretFunction(int num1, int num2){
+    public static int add(int num1, int num2){
 
         int[] num1d = digits(num1);
         int[] num2d = digits(num2);
