@@ -3,19 +3,19 @@ import java.util.IllformedLocaleException;
 public class SillyAdditon2 {
 
     public static void main(String[] args) {
-        add(1123, 123);
+        add(0, 0);
     }
 
 
     public static int add(int num1, int num2){
-        StringBuilder result = new StringBuilder();
+        String result = "";
         while (num1 + num2 > 0){
-            result.insert(0, (num1 % 10 + num2 % 10));
+            result = num1 % 10 + num2 % 10 + result;
             num1 /= 10;
             num2 /= 10;
         }
 
-        return Integer.parseInt(result.toString());
+        return result.isEmpty() ? 0 : Integer.parseInt(result.toString());
 
     }
 
