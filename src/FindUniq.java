@@ -1,7 +1,5 @@
 public class FindUniq {
-    public static void main(String[] args) {
 
-    }
     public static double findUniq(double[] arr) {
         double defaultNumber = 0;
         if (arr[0] == arr [1] && arr[1] == arr [2]) {

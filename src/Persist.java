@@ -1,9 +1,7 @@
 import java.util.Arrays;
 
 public class Persist {
-    public static void main(String[] args) {
-        System.out.println(persistence(25));
-    }
+
     public static int persistence(long n) {
         int  count = 0;
         long[] digits;

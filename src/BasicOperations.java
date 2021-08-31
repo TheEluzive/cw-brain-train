@@ -1,7 +1,5 @@
 public class BasicOperations {
-    public static void main(String[] args) {
 
-    }
 
     public static Integer basicMath(String op, int v1, int v2) throws Exception {
         switch (op){

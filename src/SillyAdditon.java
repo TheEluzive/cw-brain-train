@@ -2,9 +2,7 @@ import java.util.IllformedLocaleException;
 
 public class SillyAdditon {
 
-    public static void main(String[] args) {
-        add(123, 123);
-    }
+
 
 
     public static int add(int num1, int num2){
